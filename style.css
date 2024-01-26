@@ -194,13 +194,13 @@ nav a:hover {
 
 .mapas{
   justify-content: space-around;
-  flex-wrap: wrap;
   display: flex;
+  width: 100%;
 }
 
 .imagen-port{
   width: 40%;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
   overflow: hidden;
   position: relative;
   cursor: pointer;
@@ -415,10 +415,14 @@ font-family: "calibri light";
   }
 
   .mapas{
-    
     width: 100%;
     align-items: center;
-    flex-direction: column ;
+    flex-direction: column   ;
+  }
+
+  .imagen-port{
+    width: 75%;
+    height: 200px;
   }
 
   .tramites-registrales{
