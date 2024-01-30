@@ -410,14 +410,7 @@ font-family: "calibri light";
     text-align: center;
   }
 
-  .container-footer{
-    text-align: center;
-    width: 100%;
-    align-items: center;
-    flex-direction: column;
-
-  }
-
+ 
   .mapas{
     width: 100%;
     align-items: center;
@@ -441,12 +434,32 @@ font-family: "calibri light";
       padding-bottom: 0px;
     }
 
-    .contenido-footer p{
+    .container-footer{
+      width: 100%;
       text-align: center;
+      align-items: center;
+      flex-direction: column;
     }
+  
+  .contenido-footer p{
+    text-align: center;
+    align-items: center;
+   }
+
+   .contenido-footer ul {
+    width: 100%;
+   }
 
     .botom-bar{
-      padding: 0 18% 0 18%;
+      padding: 0 4%;
     }
+
+   
+
+  .social-icons{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
   
 }
