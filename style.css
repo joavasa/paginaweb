@@ -7,6 +7,13 @@
   background-color: hsl(40, 100%, 97%);
 }
 
+hr {
+  width: 90%;
+  height: 2px;
+  background-color: grey;
+  border-color:grey ; 
+}
+
 a {
   text-decoration: none;
   color: rgb(0, 0, 0);
@@ -53,7 +60,7 @@ nav a {
 }
 
 nav a:hover {
-  color:rgb(247, 252, 123);
+  color:orange;
 }
 
 .mostrar-menu, .esconder-menu{
@@ -74,7 +81,7 @@ nav a:hover {
 
 .slider-box {
   width: 90%;
-  height: auto;
+  height: 600px;
   margin: 45px auto 35px;
   overflow: hidden; 
 }
@@ -92,32 +99,29 @@ nav a:hover {
   position: relative;
 }
 
-.texto h1{
-  margin-bottom: 25px;
-  font-size: 45px;
-  font-family:'Poppins', sans-serif;
-}
-
-.texto {
-  position: absolute;
-  text-align: center;
-  justify-content: center;
-  padding: 0 250px;
-  top: 250px;
-  color:#000000;
-}
-
 .slider-box img{
   width: 100%;  
 }
 
-
-
-.texto p{
+.texto h1{
+  margin-bottom: 25px;
+  font-size: 45px;
   font-family:'Poppins', sans-serif;
-  padding: auto;
-  color: rgb(30, 30, 24);
-  text-shadow: 4px 4px 5px rgb(254, 248, 248);
+  color: tomato;
+
+}
+
+.texto {
+  height: 55;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  padding: 4% 20%;
+  top: 150px;
+  color:rgb(28, 28, 28);
+  font-size: 25px;
+  font-weight: bold;
+  backdrop-filter: blur(15px);
 }
 
 @keyframes slide {
@@ -220,7 +224,7 @@ nav a:hover {
   width: 100%;
   height: 100%;
   top: 0;
-  background: hsla(62, 100%, 89%, 0.907);
+  background: hsla(36, 100%, 78%, 0.907);
   transition: transform .5s;
   display: flex;
   justify-content: center;
@@ -252,7 +256,7 @@ footer{
 }
 
 .contenido-footer{
-    width: 35%;
+    width: 100%;
     padding: 0px;
     justify-content: center;
     align-items: center;
@@ -350,20 +354,12 @@ font-family: "calibri light";
 
   .slider-box {
   width: 100%;
+  height: 0%;
   }
 
   .texto h1{
     font-size: 25px;
     margin-bottom: 15px;
-  }
-
-  .texto {
-    top: 50px;
-    padding: 0 25px;
-  }
-  
-  .texto p{
-    font-size: 13px;
   }
 
   .mostrar-menu, 
@@ -399,17 +395,17 @@ font-family: "calibri light";
     right: 0;
   }
 
-  .mision-vision{
-    padding-top: 35px;
-  }
-
-  .texto{
+   .texto {
+    top: 15%;
+    padding: 0px 0%;
     width: 100%;
     display: block;
-    padding: 15px;
     text-align: center;
   }
 
+  .texto p{
+    font-size: 12px;
+  }
  
   .mapas{
     width: 100%;
@@ -428,38 +424,29 @@ font-family: "calibri light";
   }
  
   .servicios {
-    margin: 0;  }
+    margin-bottom: 20px;  
+  }
 
     .slider-box{
       padding-bottom: 0px;
     }
 
-    .container-footer{
-      width: 100%;
-      text-align: center;
-      align-items: center;
-      flex-direction: column;
-    }
-  
-  .contenido-footer p{
-    text-align: center;
-    align-items: center;
-   }
+  .container-footer{
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
+  }
 
-   .contenido-footer ul {
-    width: 100%;
-   }
+  
 
     .botom-bar{
       padding: 0 4%;
     }
-
-   
 
   .social-icons{
     width: 100%;
     align-items: center;
     text-align: center;
   }
+
   
 }
